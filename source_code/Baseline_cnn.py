@@ -15,7 +15,7 @@ IMG_WIDTH = 256
 BATCH_SIZE = 32
 
 # Define dataset path
-data_dir ="/Users/vishweshjk/MP/untouched/augmented_db"  # Change this to your dataset directory
+data_dir ="Path_for_dataset"  # Change this to your dataset directory
 
 # Split dataset into training and validation
 all_data_gen = ImageDataGenerator(rescale=1.0/255, validation_split=0.2)
