@@ -28,7 +28,7 @@ IMG_WIDTH = 128
 BATCH_SIZE = 32
 
 # ✅ Define dataset path
-data_dir = "/Users/vishweshjk/MP/untouched/augmented_db"
+data_dir = "Path_to_dataset"
 
 # ✅ Image Data Generators
 all_data_gen = ImageDataGenerator(rescale=1.0/255, validation_split=0.2)
